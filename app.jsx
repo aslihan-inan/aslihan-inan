@@ -1,11 +1,17 @@
+import ThemeLanguage from "./components/ThemeLanguage";
+import { useState } from "react";
 
-import Skills from './components/Skills';
+export default function App() {
+  const [language, setLanguage] = useState(localStorage.getItem("language") || "tr");
 
-function App() {
+  useEffect(() => {
+    localStorage.setItem("language", language);
+  }, [language]);
+
   return (
-    <div className="container">
-      {/* Diğer bileşenler */}
-      <Skills />
+    <div>
+      <ThemeLanguage language={language} setLanguage={setLanguage} />
+      {/* diğer componentler */}
     </div>
   );
 }
