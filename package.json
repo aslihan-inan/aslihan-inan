@@ -8,9 +8,8 @@
     "preview": "vite preview"
   },
   "engines": {
-   "node": ">=18"
+    "node": ">=18"
   },
-
   "keywords": [],
   "author": "aslihan-inan <a.uzunogullari@gmail.com>",
   "license": "ISC",
