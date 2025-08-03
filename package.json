@@ -7,6 +7,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "engines": {
+  "node": "20.x"
+  },
+
   "keywords": [],
   "author": "aslihan-inan <a.uzunogullari@gmail.com>",
   "license": "ISC",

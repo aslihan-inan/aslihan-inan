@@ -1,6 +1,6 @@
 export default function Profile() {
-  // Burada language sabit, dil seçimi yok
-  const language = "tr"; // "tr" veya "en" olarak değiştir
+
+  const language = "tr"; 
 
   return (
     <section className="bg-gray-50 dark:bg-gray-900 py-16">
@@ -10,7 +10,7 @@ export default function Profile() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Temel Bilgiler Kartı */}
+         
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
             <h3 className="text-pink-600 text-xl font-semibold mb-4">
               {language === "tr" ? "Temel Bilgiler" : "Basic Information"}
@@ -43,7 +43,7 @@ export default function Profile() {
             </ul>
           </div>
 
-          {/* Hakkımda Bölümü */}
+       
           <div>
             <h3 className="text-blue-600 text-xl font-semibold mb-4">
               {language === "tr" ? "Hakkımda" : "About Me"}

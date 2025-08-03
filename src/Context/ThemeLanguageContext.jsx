@@ -4,7 +4,7 @@ export const ThemeLanguageContext = createContext();
 
 export const ThemeLanguageProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Check localStorage first, then system preference
+ 
     const savedMode = localStorage.getItem('darkMode');
     return savedMode ? JSON.parse(savedMode) : 
       window.matchMedia('(prefers-color-scheme: dark)').matches;

@@ -3,8 +3,7 @@ import Hero from './components/Hero';
 import Projects from "./components/Projects";
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
-import Call from "./components/Call"; // Ekle
-
+import Call from "./components/Call"; 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [language, setLanguage] = useState('tr');
@@ -53,7 +52,7 @@ function App() {
           <Skills language={language} />
           <Profile language={language} />
           <Projects language={language} />
-          <Call lang={language} />  {/* Burada çağrılıyor */}
+          <Call lang={language} />  
         </div>
       </section>
     </div>

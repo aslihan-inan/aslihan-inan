@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div>
       <ThemeLanguage language={language} setLanguage={setLanguage} />
-      {/* diğer componentler */}
+    
     </div>
   );
 }
