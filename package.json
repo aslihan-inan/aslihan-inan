@@ -2,6 +2,7 @@
   "name": "yeniyeni",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
@@ -13,7 +14,7 @@
   "keywords": [],
   "author": "aslihan-inan <a.uzunogullari@gmail.com>",
   "license": "ISC",
-  "type": "module",
+ 
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
