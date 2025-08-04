@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { ThemeLanguageProvider } from './context/ThemeLanguageContext2.jsx';
+import { ThemeLanguageProvider } from './Context/ThemeLanguageContext2.jsx';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
